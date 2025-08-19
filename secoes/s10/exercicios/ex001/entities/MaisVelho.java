@@ -1,4 +1,4 @@
-package s10.exercicios.ex001.entities;
+package secao10.exercicios.ex001.entities;
 
 public class MaisVelho {
     private String nome;

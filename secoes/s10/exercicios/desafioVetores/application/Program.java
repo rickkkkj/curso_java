@@ -1,6 +1,6 @@
-package s10.exercicios.desafioVetores.application;
+package secao10.exercicios.desafioVetores.application;
 
-import s10.exercicios.desafioVetores.entities.Pensao;
+import secao10.exercicios.desafioVetores.entities.Pensao;
 
 import java.util.Locale;
 import java.util.Scanner;

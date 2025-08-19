@@ -1,4 +1,4 @@
-package s10.exercicios.desafioVetores.entities;
+package secao10.exercicios.desafioVetores.entities;
 
 public class Pensao {
     private String nome;

@@ -1,4 +1,4 @@
-package s10.aulas.listas;
+package secao10.aulas.listas;
 
 import java.util.ArrayList;
 import java.util.List;

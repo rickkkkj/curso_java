@@ -1,4 +1,4 @@
-package s10.aulas.Vetores.entities;
+package secao10.aulas.Vetores.entities;
 
 public class Product {
     // atributos

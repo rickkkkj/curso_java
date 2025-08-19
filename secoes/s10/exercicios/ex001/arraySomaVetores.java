@@ -1,4 +1,4 @@
-package s10.exercicios.ex001;
+package secao10.exercicios.ex001;
 
 import java.util.Locale;
 import java.util.Scanner;

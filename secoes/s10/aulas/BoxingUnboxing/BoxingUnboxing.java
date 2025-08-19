@@ -1,4 +1,4 @@
-package s10.aulas.BoxingUnboxing;
+package secao10.aulas.BoxingUnboxing;
 
 public class BoxingUnboxing {
     public static void main(String[] args) {

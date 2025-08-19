@@ -1,4 +1,4 @@
-package s10.aulas.ForEach;
+package secao10.aulas.ForEach;
 
 public class ForEach {
     public static void main(String[] args) {

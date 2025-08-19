@@ -1,6 +1,6 @@
-package s10.aulas.Vetores;
+package secao10.aulas.Vetores;
 
-import s10.aulas.Vetores.entities.Product;
+import secao10.aulas.Vetores.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;

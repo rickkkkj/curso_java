@@ -1,4 +1,4 @@
-package s10.aulas.Vetores;
+package secao10.aulas.Vetores;
 
 import java.util.Locale;
 import java.util.Scanner;

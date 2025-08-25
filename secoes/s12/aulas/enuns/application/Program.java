@@ -1,7 +1,7 @@
-package s12.aulas.application;
+package s12.aulas.enuns.application;
 
-import s12.aulas.entities.Order;
-import s12.aulas.entities.OrderStatus;
+import s12.aulas.enuns.entities.Order;
+import s12.aulas.enuns.entities.OrderStatus;
 
 import java.util.Date;
 

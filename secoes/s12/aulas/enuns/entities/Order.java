@@ -1,6 +1,5 @@
-package s12.aulas.entities;
+package s12.aulas.enuns.entities;
 
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class Order {

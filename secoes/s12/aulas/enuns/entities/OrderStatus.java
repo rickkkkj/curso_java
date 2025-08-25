@@ -1,4 +1,4 @@
-package s12.aulas.entities;
+package s12.aulas.enuns.entities;
 
 public enum OrderStatus{
     PENDING_PAYMENT,

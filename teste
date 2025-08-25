@@ -1,0 +1,56 @@
+    public void removeInicio(){
+        if (primeiroNo == null) {
+            System.out.println("Lista vazia!");
+        }else{
+            if (primeiroNo == ultimoNo) {
+                primeiroNo = ultimoNo = null;
+            } else {
+                primeiroNo = primeiroNo.getNextNo();
+            }
+        }
+    }
+
+    public void addFinal(T dado){
+        No<T> novoNo = new No<T>(dado);
+        if(primeiroNo == null){
+            primeiroNo = ultimoNo = novoNo;
+        } else {
+            ultimoNo.setNextNo(novoNo);
+            ultimoNo = novoNo;
+        }
+    }
+
+    public void removeFim(){
+        if (ultimoNo == null) {
+            System.out.println("Lista vazia!");
+        } else {
+            if (primeiroNo == ultimoNo) {
+                primeiroNo = ultimoNo = null;
+            } else {
+                No<T> aux = primeiroNo;
+    
+                while(aux.getNextNo() != ultimoNo){
+                    aux = aux.getNextNo();
+                }
+    
+                ultimoNo = aux;
+                aux.setNextNo(null);
+            }
+        }
+    }
+
+
+
+---------
+
+
+        Lista<String> lista = new Lista<String>("ALUNOS");
+        lista.addInicio("Ricardo");
+        lista.addInicio("Gabriel");
+        lista.addFinal("Jose");
+        lista.addFinal("Josias");
+        lista.addFinal("Marcos");
+        lista.removeFim();
+
+        lista.imprimeLista();
+    }
